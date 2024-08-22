@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Final Project</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f4b9986cda.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/gymlogo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#certificates">Methods</a></li>
+                    <li><a href="#portfolio">Membership</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Welcome to Elevate Fitness Gym</p>
+                <h1>One<span> Day</span> Or<span> Day</span> One</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ABOUT ME -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/about.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">Welcome to Elevate Fitness Gym: Where Strength Meets</h1>
+                    <p>At Elevate Fitness Gym, we're not just a fitness center; we're a community dedicated to
+                        empowering individuals to reach their peak potential. Nestled in the heart of Urdaneta City, our
+                        state-of-the-art facility is designed to inspire and motivate you on your fitness journey.</p>
+
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Facilities</p>
+                        <p class="tab-links" onclick="opentab('experience')">Equipment List</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>1</span><br>Yoga Space</li>
+                            <li><span>2</span><br>Charging Station</li>
+                            <li><span>3</span><br>Changing Room</li>
+                            <li><span>4</span><br>Complimentary Toilet</li>
+                            <li><span>5</span><br>Group Exercise</li>
+                            <li><span>6</span><br>Locker Space</li>
+                            <li><span>7</span><br>Lounge Area</li>
+                            <li><span>8</span><br>Free Wi-Fi</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>1</span><br>Bicycle</li>
+                            <li><span>2</span><br>Barbel</li>
+                            <li><span>3</span><br>Dumbbell</li>
+                            <li><span>4</span><br>Rowing machine</li>
+                            <li><span>5</span><br>Leg Curl Machine</li>
+                            <li><span>6</span><br>Bench</li>
+                            <li><span>7</span><br>Treadmill</li>
+                            <li><span>8</span><br>Leg Press Machine</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Certificates -->
+    <div id="certificates">
+        <div class="container">
+            <h1 class="sub-title">Methods</h1>
+            <div class="certificates-list">
+                <div class="method1">
+                    <h3>Body Shape</h3>
+                    <img src="/images/method1.png">
+                    <p>At Elavate Fitness Gym, we understand that everyone has different body shapes and fitness goals.
+                        That's why we offer a variety of programs and services to help you achieve your desired shape.
+                    </p>
+                    <a href="#Method1">read more...</a>
+                </div>
+                <div>
+                    <h3>Extreme</h3>
+                    <img src="images/method2.png">
+                    <p>Welcome to the Extreme section of Elavate Fitness Gym! This is where we push ourselves to surpass
+                        our limits and achieve our fitness goals. Come join us and experience the thrill of the Extreme
+                        section!</p>
+                    <a href="#Method2">read more...</a>
+                </div>
+                <div>
+                    <h3>Burn</h3>
+                    <img src="images/method3.png">
+                    <p>Are you ready to take your fitness to the next level and burn off those pounds? Come to Elavate
+                        Fitness Gym and let us help you reach your goals.</p>
+                    <a href="#Method3">read more...</a>
+                </div>
+                <div>
+                    <h3>HIIT</h3>
+                    <img src="/images/method4.png">
+                    <p>Get ready to sweat and achieve your fitness goals with our HIIT classes at Elevate Fitness Gym.
+                        Our experienced trainers will guide you through high-intensity interval training workouts that
+                        will challenge your body and push you to new limits.</p>
+                    <a href="#Method4">read more...</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- PORTFORLIO -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Membership</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/gymlogo.png">
+                    <h3>New Membership trial</h3>
+                    <div class="layer">
+                        <h3>₱750.00</h3>
+                        <p>Valid for 3 months</p>
+                        <p>Monthly</p>
+                        <p>5 Class</p>
+                        <p>Open Studio Access</p>
+                        <p>Online Resources</p>
+                        <a href="#contact"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/gymlogo.png">
+                    <h3>Monthly Unlimited</h3>
+                    <div class="layer">
+                        <h3>₱2000.00</h3>
+                        <p>Unlimited Classes</p>
+                        <p>Open Studio Access</p>
+                        <p>Online Resources</p>
+                        <p>1 Guest Pass</p>
+                        <p>Free Wi-Fi</p>
+                        <p>Weekly Newsletter</p>
+                        <a href="#contact"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/gymlogo.png">
+                    <h3>Personal Session</h3>
+                    <div class="layer">
+                        <h3>₱4000.00</h3>
+                        <p>Unlimited Classes</p>
+                        <p>Open Studio Access</p>
+                        <p>Online Resources</p>
+                        <p>1 Guest Pass</p>
+                        <p>Free Wi-Fi</p>
+                        <p>Weekly Newsletter</p>
+                        <p>Weekly Newsletter</p>
+                        <a href="#contact"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- METHOD1 -->
+    <div id="Method1">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/method1.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">METHOD 1</h1>
+                    <p>Body Shape
+                        At Elavate Fitness Gym, we recognize and celebrate the diversity of body shapes among our
+                        members. We understand that each individual has unique fitness goals and aspirations, and we are
+                        dedicated to providing personalized programs and services to help you achieve your desired body
+                        shape. Whether you aim to build muscle, tone up, lose weight, or improve overall health and
+                        fitness, our experienced trainers and comprehensive facilities are here to support you every
+                        step of the way.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- METHOD2 -->
+    <div id="Method2">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/method2.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">METHOD 2</h1>
+                    <p>Welcome to the Extreme section of Elavate Fitness Gym, where we take fitness to the next level!
+                        Here, we embrace the challenge of pushing beyond our limits and achieving remarkable results.
+                        From high-intensity interval training (HIIT) to advanced strength and conditioning workouts, the
+                        Extreme section is designed for those who crave intensity and thrive on pushing their
+                        boundaries. Get ready to sweat, grind, and exceed your fitness goals in this dynamic and
+                        exhilarating environment.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- METHO3 -->
+    <div id="Method3">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/method3.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">METHOD 3</h1>
+                    <p>At Elavate Fitness Gym, we understand the importance of burning off excess pounds and achieving a
+                        healthier, fitter body. That's why we offer specialized programs and services designed to help
+                        you torch calories, shed fat, and reach your weight loss goals effectively. Whether you're
+                        aiming to drop a few pounds or undergo a significant transformation, our Burn section is
+                        dedicated to providing the tools, support, and motivation you need to succeed.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- METHO4-->
+    <div id="Method4">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/method4.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">METHOD 4</h1>
+                    <p>Experience the power of High-Intensity Interval Training (HIIT) at Elevate Fitness Gym. Our HIIT
+                        classes are designed to deliver maximum results in minimal time, making them perfect for busy
+                        individuals who want to maximize their workout efficiency. Led by experienced trainers, our HIIT
+                        sessions combine bursts of intense exercise with short periods of rest or active recovery,
+                        challenging your body to burn calories, build strength, and improve overall fitness levels. Get
+                        ready to sweat, push your limits, and achieve your fitness goals with our exhilarating HIIT
+                        classes.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="btn">Back to top</a>
+    <!-- CONTACT  -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Us</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>DarylKyle17@gmail.com</p>
+                    <p><i class="fa-solid fa-paper-plane"></i>Zia0619@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+63945-321-7654</p>
+                    <p><i class="fa-solid fa-phone"></i>+63945-123-4567</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+           <img src="images/gymlogo.png" > <p> &nbsp; Elevate Fitness</p>
+           
+        </div>
+    </div>
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "0";
+        }
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzANPUznUwX1s8eQod0PO3aZgWaiFkPBDx60t8f1PRHR1_EntSRxb_e6j-Stl-RnOdd/exec'
+        const form = document.forms['submit-to-google-sheet']
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => console.log('Success!', response))
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
