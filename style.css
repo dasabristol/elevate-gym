@@ -67,7 +67,7 @@ nav ul li a:hover::after{
 .header-text h1 span{
     color: cyan;
 }
-/* ABOUT ME  */
+/* METHOD */
 #about{
     padding: 60px 0;
     color: #fff
@@ -81,7 +81,7 @@ nav ul li a:hover::after{
     flex-basis: 35%;
 }
 .about-col-1 img{
-    width: 100%;
+    width: 80%;
 
     border-radius: 15px;
 }
